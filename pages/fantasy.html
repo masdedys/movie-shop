@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jual File Film Jakarta | masdedys.github.io</title>
+    <!--title icon-->
+    <link rel="shortcut icon" href="../assets/img/logo.png" />
+    <link rel="stylesheet" href="../assets/bootstrap-5.2.3/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="../assets/icons-1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../css/barber-shop.css" />
+  </head>
+  <body>
+    <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+        <div class="container py-3">
+          <a class="navbar-brand" href="https://masdedys.github.io/">
+            <img src="../assets/img/logo.png" alt="logo mas_dedys" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+                  <li><a class="dropdown-item" href="animation.html">Animation</a></li>
+                  <li><a class="dropdown-item" href="mystery.html">Mystery</a></li>
+                  <li><a class="dropdown-item" href="indo.html">Indo Movie</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="searching.html">Search</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--/navbar-->
+    <div class="container mt-5">
+      <!--fantasi-->
+      <section id="fantasy-Movie" class="recommended">
+        <h1 class="title">Fantasy Movie</h1>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="fantasyMovie"></div>
+      </section>
+      <!--/fantasi-->
+    </div>
+    <!-- copyright start -->
+      <div class="container">
+      <div class="row align-items-end text-white py-3">
+			<div class="col-md text-white copyright-item text-center">
+				<small class="text-white">&copy;2026&nbsp;<a href="https://masdedys.github.io/" class="text-white link-info">masdedys.github.io</a>, All Rights Reserved</small>
+			</div>
+		</div>
+    </div>
+    <!-- copyright end -->
+    <div class="modal fade" id="hubungikamidiig" tabindex="-1" aria-labelledby="hubungikamidiig" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="hubungikamidiig">Movie Selected</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center" id="modalData">
+            <img class="mb-2" src="" id="img" width="30%" height="30%"><br>
+            <div class="fw-bold h5" id="title"></div>
+            <div class="" id="harga"></div>
+            <button class="btn btn-red" id="sinopsis" onclick="ProsesData()">Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--bootstrap-->
+    <script src="../assets/jquery/jquery-3.7.1.js"></script>
+	<script src="../assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+    <!--javascript include-->
+    <script src="../js/script.js"></script>
+    <script>
+      $.getJSON("../assets/js/movieList.json", function (data) {
+  let DaftarFilm = data.movieList;
+  let content = "";
+  let contents = "";
+
+  $.each(DaftarFilm, function (i, data) {
+    if (data.genre == "Fantasy") {
+      content +=
+        '<div class="card col-md-2 col-sm-3 m-3"><img src="../assets/film/' +
+        data.img +
+        '" width="10rem" class="card-img-top" alt="gambar ' +
+        data.title +
+        '"><div class="card-body"><small class="text-dark mb-2">' +
+        data.genre +
+        '</small><a href="#" onclick="tampilDetail(' + data.id + ')" class="card-title" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">' +
+        data.title +
+        '</a></div></div>';
+    }
+  });
+
+  $("#fantasyMovie").html(content);
+});
+    </script>
+    <script>
+        // Fungsi untuk membuka modal dan memuat data
+        function tampilDetail(idTombol) {
+            // // Tampilkan modal
+            // const overlay = document.getElementById('modalOverlay');
+            // overlay.classList.add('active');
+            // Ambil data dari file JSON
+            fetch('../assets/js/movieList.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Cari data berdasarkan ID tombol yang diklik
+                    const detail = data.movieList.find(item => item.id == idTombol);
+                    
+                    // Tampilkan data ke dalam modal
+                    const modalData = document.getElementById('modalData');
+                    if (detail) {
+                      document.getElementById("title").innerText = detail.title;
+                      document.getElementById("harga").innerText = detail.price;
+                     document.getElementById('sinopsis').setAttribute('data-id', detail.id);
+                      // Mengubah atribut 'src' gambar modal secara dinamis
+                      document.getElementById("img").src = `../assets/film/${detail.img}`;
+                        // modalData.innerHTML = `
+                        //     <p><strong>Judul:</strong> ${detail.title}</p>
+                        //     <p><strong>Genre:</strong> ${detail.genre}</p>
+                        //     <p><strong>Harga:</strong> ${detail.price}</p>
+                        // `;
+                    } else {
+                        modalData.innerHTML = `<p style="color:red;">Data tidak ditemukan!</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('modalData').innerHTML = `<p style="color:red;">Gagal memuat data.</p>`;
+                });
+        }
+
+        // Fungsi yang dieksekusi saat tombol di dalam modal diklik
+function ProsesData() {
+  const tombol = document.getElementById('sinopsis');
+  const idData = tombol.getAttribute('data-id');
+  
+ // 2. Arahkan ke halaman baru dengan membawa parameter ID di URL
+  window.location.href = `detail.html?id=${idData}`;
+}
+    </script>
+  </body>
+</html>

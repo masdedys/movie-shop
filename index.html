@@ -5,29 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jual File Film Jakarta | masdedys.github.io</title>
     <!--title icon-->
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-    <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
-    <!--css-->
-    <link rel="stylesheet" href="css/style.css">
-    <!--fancybox-->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-    <!--aos-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!--font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <!--pace js-->
-    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="shortcut icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/bootstrap-5.2.3/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="assets/icons-1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="css/barber-shop.css" />
   </head>
-  <body id="home">
-    <div class="container">
-      <!--navbar-->
-      <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2">
+  <body>
+    <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
         <div class="container py-3">
           <a class="navbar-brand" href="https://masdedys.github.io/">
             <img src="assets/img/logo.png" alt="logo mas_dedys" />
@@ -38,102 +24,67 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Beranda</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pages/fantasy.html">Fantasy</a></li>
+                  <li><a class="dropdown-item" href="pages/animation.html">Animation</a></li>
+                  <li><a class="dropdown-item" href="pages/mystery.html">Mystery</a></li>
+                  <li><a class="dropdown-item" href="pages/indo.html">Indo Movie</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#category">Kategori</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#databasefilm">Pencarian</a>
+                <a class="nav-link" href="pages/searching.html">Search</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <!--/navbar-->
-    </div>
-    <!--jumbotron-->
-    <div class="container mb-5">
-      <section class="header my-5 py-5 my-sm-2 py-sm-2" id="header">
-        <div class="jumbotron container my-5 my-sm-0 py-sm-0">
-          <h2 class="display-4 my-4 pt-5" data-aos="fade-up">Hello</h1>
-          <p class="lead" data-aos="fade-up" data-aos-delay="300">Assalamu'alaykum.. Selamat datang di toko saya, disini saya menjual beberapa file film. Untuk info lebih lanjut bisa chat saya di instagram saya di <strong><a href="https://www.instagram.com/mas_dedys/" title="Lanjutkan ke ig saya" target="_blank">mas_dedys</a></strong>. Terima Kasih</p>
-          <a class="btn btn-lg float-end mb-5" href="#category" role="button">Cari Film</a>
-        </div>
+    <div class="container">
+      <!-- header -->
+      <section class="header id="header">
       </section>
-    </div>
-    <!--/jumbotron-->
-    <div class="container mt-5">
-      <!--kategori-->
-      <section class="category py-5 my-5 my-sm-2 py-sm-2" id="category">
-        <div class="row mt-5 py-5 mt-sm-2 pt-sm-2">
-          <h2 class="py-5 mt-5">Kategori</h2>
-          <div class="col-sm justify-content-between">
-            <a href="kategori-film/movie-kartun.html" target="_blank" class="btn btn-lg film-kategori my-3">Kartun</a>
-            <a href="kategori-film/movie-fantasy.html" target="_blank" type="button" class="btn btn-lg film-kategori my-3">Fantasi</a>
-            <a href="kategori-film/movie-laga-hero.html" target="_blank" type="button" class="btn btn-lg film-kategori my-3">Laga/Hero</a>
-            <a href="kategori-film/movie-indo.html" target="_blank" type="button" class="btn btn-lg film-kategori my-3">Indo</a>
-          </div>
-        </div>
-      </section>
-      <!--/kategori-->
+      <!-- /header -->
       <!--newentry-->
-      <section id="newentry" class="newentry">
-        <h1>Rekomendasi</h1>
+      <section class="recommended">
+        <h1 class="title">Recommended</h1>
         <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film"></div>
       </section>
       <!--/newentry-->
       <!--newentry-->
-      <section id="newentry" class="newentry">
-        <h1>Baru</h1>
+      <section class="newentry">
+        <h1 class="title">New Entry</h1>
         <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film-baru"></div>
       </section>
       <!--/newentry-->
-      <!--database film-->
-      <section class="databasefilm" id="databasefilm">
-        <h1 class="mt-5 py-5"></h1>
-        <div class="row py-5 justify-content-center" id="search">
-            <div class="col-md-12">
-              <table id="table-demo" class="table table-striped" style="width: 100%">
-                <thead>
-                  <tr>
-                    <th>Judul</th>
-                    <th>Genre</th>
-                    <th>Harga</th>
-                  </tr>
-                </thead>
-              </table>
-            </div>
-        </div>
+      <!--newentry-->
+      <section class="newentry justify-content-center text-center p-5">
+        <a href="pages/all.html" class="btn btn-red">View All Movies</a>
       </section>
-      <!--/database film-->
+      <!--/newentry-->
     </div>
-    <!--footer-->
-    <div class="container-fluid" id="footer">
-      <footer>
-        <div class="row text-light">
+    <footer>
+    <div class="container-fluid">
+      <div class="container">  
+        <div class="row text-light align-items-center justify-content-center">
           <div class="col-sm-4 py-5">
             <ul>
               <li>
                 <p><img src="assets/img/logo.png" class="img-fluid justify-content-center" alt="logo mas_dedys" /></p>
-              </li>
-              <li><h3>Kunjungi saya juga di</h3></li>
-            </ul>
-            <ul class="social circle">
-              <li>
-                <a href="https://github.com/masdedys" target="_blank"><i class="bi bi-github"></i></a>
-                <!-- <a href="https://dribbble.com/masdedys" target="_blank"><i class="bi bi-dribbble"></i></a> -->
-                <a href="http://masdedys.blogspot.com/" target="_blank"><i class="bi bi-type-bold"></i></a>
-                <a href="https://play.google.com/store/apps/developer?id=Dedy+Setiawan&hl=id" target="_blank"><i class="bi bi-google-play"></i></a>
               </li>
             </ul>
           </div>
           <div class="col-sm-4 py-5">
             <ul class="listinfo">
               <li><h3>Syarat dan Ketentuan</h3></li>
-              <li><a href="pages/syarat-dan-ketentuan-pembelian.html" target="_blank">Syarat dan Ketentuan</a></li>
-              <li><a href="pages/faq.html" target="_blank">F.A.Q</a></li>
-              <li><a href="pages/kontak.html" target="_blank">Kontak</a></li>
+              <li><a href="pages/notes.html" target="_blank">Syarat dan Ketentuan</a></li>
+              <!-- <li><a href="pages/faq.html" target="_blank">F.A.Q</a></li>
+              <li><a href="pages/kontak.html" target="_blank">Kontak</a></li> -->
             </ul>
           </div>
           <div class="col-sm-4 py-5">
@@ -151,148 +102,127 @@
             </ul>
           </div>
         </div>
-      </footer>
-    </div>
-    <!--/footer-->
-    <!-- copyright start -->
-      <div class="copyright container-fluid">
-        <div class="copyright-item container">
-          <div class="row">
-            <div class="col-md text-dark">
-              <small>&copy;2026&nbsp;<a href="https://masdedys.github.io/">masdedys.github.io</a>, All Rights Reserved</small>
-            </div>
-          </div>
-        </div>
       </div>
+    </div>
+    </footer>
+    <div class="container">
+      <!-- copyright start -->
+      <div class="row align-items-end text-white py-3">
+			<div class="col-md text-white copyright-item text-center">
+				<small class="text-white">&copy;2026&nbsp;<a href="https://masdedys.github.io/" class="text-white link-info">masdedys.github.io</a>, All Rights Reserved</small>
+			</div>
+		</div>
     <!-- copyright end -->
-    <!-- Modal maaf belum tersedia-->
-    <div class="modal fade" id="belumtersedia" tabindex="-1" aria-labelledby="belumtersedia" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="belumtersedia">Maaf yah </h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body text-center">
-            <span style='font-size:100px;'>&#128532;</span>
-            <p>Konten yang kamu minta belum tersedia, silahkan cek yang lain. </p>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- /Modal maaf belum tersedia-->
-    <!-- Modal silahkan hubungi kami-->
+
     <div class="modal fade" id="hubungikamidiig" tabindex="-1" aria-labelledby="hubungikamidiig" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="hubungikamidiig">Terima kasih</h1>
+            <h1 class="modal-title fs-5" id="hubungikamidiig">Movie Selected</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body text-center">
-            <span style='font-size:100px;'>&#128522;</span>
-            <h3>Terima Kasih</h3>
-            <p>Sebelum memesan, baca dulu yuk <a href="pages/syarat-dan-ketentuan-pembelian.html">Syarat dan Ketentuan</a>. Kalau sudah Kamu bisa langsung hubungi saya di instagram saya di 
-              <a href="https://www.instagram.com/mas_dedys/" target="_blank">@mas_dedys</a> atau klik link dibawah.
-            </p>
-            <a href="https://www.instagram.com/mas_dedys/" target="_blank" type="button" class="btn btn-primary">Instagram ku</a>
+          <div class="modal-body text-center" id="modalData">
+            <img class="mb-2" src="" id="img" width="30%" height="30%"><br>
+            <div class="fw-bold h5" id="title"></div>
+            <div class="" id="harga"></div>
+            <button class="btn btn-red" id="sinopsis" onclick="ProsesData()">Detail</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- /Modal silahkan hubungi kami-->
-    <!--bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!--aos-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!--jquery-->
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <!--javascript include-->
-    <!-- datatables -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
-    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    
+	<script src="assets/jquery/jquery-3.7.1.js"></script>
+	<script src="assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
     <!--javascript include-->
     <script src="js/script.js"></script>
     <script>
       
 //movie page
-$.getJSON("js/listfilm.json", function (data) {
-  let DaftarFilm = data.DaftarFilm;
+$.getJSON("assets/js/movieList.json", function (data) {
+  let DaftarFilm = data.movieList;
   let content = "";
   let contents = "";
 
   $.each(DaftarFilm, function (i, data) {
-    if (data.detail == "awesome") {
+    if (data.status == "recommended") {
       content +=
-        '<div class="card col-sm-3 m-3"><img src="assets/film/' +
-        data.gambar +
-        '" width="18rem" class="card-img-top" alt="gambar ' +
-        data.judul +
-        '"><div class="card-body"><h5 class="card-title">' +
-        data.judul +
-        "</h5><p>" +
-        data.harga +
-        '</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
+        '<div class="card col-md-2 col-sm-3 m-3"><img src="assets/film/' +
+        data.img +
+        '" width="10rem" class="card-img-top" alt="gambar ' +
+        data.title +
+        '"><div class="card-body"><small class="text-dark mb-2">' +
+        data.genre +
+        '</small><a href="#" onclick="tampilDetail(' + data.id + ')" class="card-title" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">' +
+        data.title +
+        '</a></div></div>';
     }
   });
 
   $.each(DaftarFilm, function (i, data) {
-    if (data.detail == "newentry") {
+    if (data.status == "newentry") {
       contents +=
-        '<div class="card col-sm-3 m-3"><img src="assets/film/' +
-        data.gambar +
-        '" width="18rem" class="card-img-top" alt="gambar ' +
-        data.judul +
-        '"><div class="card-body"><h5 class="card-title">' +
-        data.judul +
-        "</h5><p>" +
-        data.harga +
-        '</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
+        '<div class="card col-md-2 col-sm-3 m-3"><img src="assets/film/' +
+        data.img +
+        '" width="10rem" class="card-img-top" alt="gambar ' +
+        data.title +
+        '"><div class="card-body"><small class="text-dark mb-2">' +
+        data.genre +
+        '</small><a href="#" onclick="tampilDetail(' + data.id + ')" class="card-title" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">' +
+        data.title +
+        '</a></div></div>';
     }
   });
 
   $("#daftar-film").html(content);
   $("#daftar-film-baru").html(contents);
 });
+    </script>
 
-//Datatables search movie
-$(document).ready(function () {
-  var xmlhttp = new XMLHttpRequest();
-  var url = "js/listfilm.json";
-  xmlhttp.open("GET", url, true);
-  xmlhttp.send();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      var data = JSON.parse(this.responseText);
-      console.log(data);
-      $("#table-demo").DataTable({
-        // "ajax":data/object.txt,
-        data: data.DaftarFilm,
-        columns: [
-          { data: "judul" },
-          { data: "genre" },
-          { data: "harga" },
-          //{"defaultContent": "<button data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</button>"}
-        ],
-        lengthMenu: [
-          [5, 25, 50, -1],
-          [5, 25, 50, "All"],
-        ],
-        dom: "Bfrtip",
-        buttons: [],
-      });
-    }
-  };
-});
+    <script>
+        // Fungsi untuk membuka modal dan memuat data
+        function tampilDetail(idTombol) {
+            // // Tampilkan modal
+            // const overlay = document.getElementById('modalOverlay');
+            // overlay.classList.add('active');
+            // Ambil data dari file JSON
+            fetch('assets/js/movieList.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Cari data berdasarkan ID tombol yang diklik
+                    const detail = data.movieList.find(item => item.id == idTombol);
+                    
+                    // Tampilkan data ke dalam modal
+                    const modalData = document.getElementById('modalData');
+                    if (detail) {
+                      document.getElementById("title").innerText = detail.title;
+                      document.getElementById("harga").innerText = detail.price;
+                     document.getElementById('sinopsis').setAttribute('data-id', detail.id);
+                      // Mengubah atribut 'src' gambar modal secara dinamis
+                      document.getElementById("img").src = `assets/film/${detail.img}`;
+                        // modalData.innerHTML = `
+                        //     <p><strong>Judul:</strong> ${detail.title}</p>
+                        //     <p><strong>Genre:</strong> ${detail.genre}</p>
+                        //     <p><strong>Harga:</strong> ${detail.price}</p>
+                        // `;
+                    } else {
+                        modalData.innerHTML = `<p style="color:red;">Data tidak ditemukan!</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('modalData').innerHTML = `<p style="color:red;">Gagal memuat data.</p>`;
+                });
+        }
+
+        // Fungsi yang dieksekusi saat tombol di dalam modal diklik
+function ProsesData() {
+  const tombol = document.getElementById('sinopsis');
+  const idData = tombol.getAttribute('data-id');
+  
+ // 2. Arahkan ke halaman baru dengan membawa parameter ID di URL
+  window.location.href = `pages/detail.html?id=${idData}`;
+}
     </script>
   </body>
 </html>
