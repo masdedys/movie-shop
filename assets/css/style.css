@@ -75,6 +75,10 @@ html[data-color-mode="dark"] .dropdown-menu .dropdown-item:hover{
 .card-title:hover{
   color: var(--color-grey);
 }
+img.card-img-top{
+  width: 164px;
+  height: 246px;
+}
 /* -----------td color---------- */
 table tr .caption-description {
   background-color: blueviolet;
