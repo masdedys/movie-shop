@@ -181,11 +181,36 @@ h3 > .hovera:hover {
 }
 /* Tablet */
 @media (max-width: 767px) {
-  
+  img.card-img-top{
+  width: 135px;
+  height: 168px;
+  }
+  a.card-title{
+    font-size: 14px;
+    -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  }
+  .card-body small{
+    font-size: 12px;
+  }
 }
 /* Smartphone */
 @media (max-width: 450px) {
   .ok {
     margin-top: 1000px;
+  }
+  img.card-img-top{
+  width: 87px;
+  height: 140px;
+  }
+  a.card-title{
+    font-size: 12px;
+    -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  }
+  .card-body small{
+    font-size: 10px;
   }
 }

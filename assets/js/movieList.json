@@ -9,7 +9,7 @@
     "year": "2017",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
-    "status": "newentry",
+    "status": "-",
     "note": "Bercerita tentang pelarian Kapten Armando Salazar dan kru hantu terkutuk dari Segitiga Setan. Untuk bertahan hidup dari kejaran musuh yang ingin balas dendam, Kapten Jack Sparrow harus mencari Trisula Poseidon dengan bantuan seorang astronom dan putra Will Turner."
   },
   {
@@ -21,7 +21,7 @@
     "year": "2011",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
-    "status": "newentry",
+    "status": "-",
     "note": "Menceritakan petualangan Kapten Jack Sparrow yang dipaksa mencari Air Mancur Keabadian."
   },
   {
@@ -33,7 +33,7 @@
     "year": "2007",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
-    "status": "newentry",
+    "status": "-",
     "note": "Will Turner, Elizabeth Swann dan Kapten Barbossa memiliki misi penyelamatan Kapten Jack Sparrow dari loker Davy Jones. Mereka harus menyatukan sembilan Penguasa Bajak Laut untuk menghadapi aliansi mematikan antara Davy Jones dan Perusahaan Dagang Hindia Timur demi menyelamatkan kebebasan bajak laut."
   },
   {
@@ -45,7 +45,7 @@
     "year": "2006",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
-    "status": "newentry",
+    "status": "-",
     "note": "Kapten Jack Sparrow harus melunasi hutang jiwa kepada Davy Jones. Untuk menghindari hukuman abadi, Jack harus menemukan peti berisi jantung Davy Jones. Petualangan ini juga menyeret Will Turner dan Elizabeth Swann."
   },
   {
@@ -57,7 +57,7 @@
     "year": "2003",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
-    "status": "newentry",
+    "status": "-",
     "note": "Bercerita tentang petualangan Jack Sparrow dan Will Turner yang bekerja sama menyelamatkan Elizabeth Swann dari cengkeraman Kapten Barbossa. Barbossa dan krunya dikutuk menjadi kerangka hidup abadi akibat mencuri harta karun Aztec dan hanya dapat dipulihkan dengan darah terakhir dari keturunan Turner."
   },
   {
@@ -185,7 +185,7 @@
     "title": "Jurassic World Rebirth",
     "img": "Jurassic World Rebirth.jpg",
     "studio": "Universal",
-    "from": "Jurassic World",
+    "from": "Jurassic Park",
     "year": "2025",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
@@ -197,7 +197,7 @@
     "title": "Jurassic World Dominion",
     "img": "jurassic world dominion.jpg",
     "studio": "Universal",
-    "from": "Jurassic World",
+    "from": "Jurassic Park",
     "year": "2022",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
@@ -209,7 +209,7 @@
     "title": "Jurassic World",
     "img": "jurassic world.jpg",
     "studio": "Universal",
-    "from": "Jurassic World",
+    "from": "Jurassic Park",
     "year": "2015",
     "genre": "Fantasy",
     "price": "Rp. 25,000,-",
@@ -279,7 +279,7 @@
   {
     "id": "24",
     "title": "The Fist of Blue Sapphire",
-    "img": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto.jpg",
+    "img": "Detective Conan the fist of blue sapphire.jpg",
     "studio": "TMS",
     "from": "Detective Conan",
     "year": "2019",
@@ -350,6 +350,18 @@
   },
   {
     "id": "30",
+    "title": "When marnie was there ",
+    "img": "When marnie was there.jpg",
+    "studio": "Ghibli",
+    "from": "Ghibli",
+    "year": "2014",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Anna Sasaki, seorang gadis 12 tahun yang tertutup dan merasa terasing. Demi memulihkan kesehatannya, ia dikirim ke sebuah desa di Hokkaido. Di sana, ia bertemu dengan gadis misterius bernama Marnie, yang membantunya berdamai dengan trauma masa lalu dan menemukan jati dirinya."
+  },
+  {
+    "id": "31",
     "title": "Wind Rises",
     "img": "wind rises.jpg",
     "studio": "Ghibli",
@@ -361,7 +373,19 @@
     "note": "Film ini mengisahkan dedikasi, cinta, dan dilema moral Jiro saat ia mengejar mimpinya merancang pesawat terbang yang indah di tengah masa-masa pergolakan Perang Dunia."
   },
   {
-    "id": "31",
+    "id": "32",
+    "title": "Poppy hill ",
+    "img": "Poppy hill.webp",
+    "studio": "Ghibli",
+    "from": "Ghibli",
+    "year": "2011",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Perjuangan dua siswa SMA di Yokohama pada tahun 1963 dalam menyelamatkan gedung klub tua bersejarah dari pembongkaran, menjelang Olimpiade Tokyo. Di tengah aksi tersebut, kisah berkembang menjadi romansa manis yang diwarnai oleh misteri masa lalu orang tua mereka."
+  },
+  {
+    "id": "33",
     "title": "Secret world arrietty",
     "img": "secret world arrietty.jpg",
     "studio": "Ghibli",
@@ -373,7 +397,7 @@
     "note": "Arrietty, gadis liliput berusia 14 tahun dari keluarga peminjam. Mereka hidup sembunyi di bawah lantai sebuah rumah tua dan bertahan hidup dengan meminjam barang-barang manusia dalam jumlah kecil."
   },
   {
-    "id": "32",
+    "id": "34",
     "title": "Ponyo",
     "img": "ponyo.png",
     "studio": "Ghibli",
@@ -385,7 +409,7 @@
     "note": "Mengisahkan persahabatan antara Sousuke, bocah lelaki berumur lima tahun, dan Ponyo, putri ikan mas ajaib yang mendambakan menjadi manusia. Tekad Ponyo menggunakan sihir untuk hidup di darat memicu bencana alam, mengharuskan mereka bekerja sama memulihkan keseimbangan alam."
   },
   {
-    "id": "33",
+    "id": "35",
     "title": "Howl Moving Castle",
     "img": "howlmovingcastle.jpg",
     "studio": "Ghibli",
@@ -397,7 +421,7 @@
     "note": "Sophie, pembuat topi muda yang dikutuk menjadi wanita tua oleh penyihir. Mencari obat, ia masuk ke kastil berjalan ajaib milik penyihir Howl yang eksentrik. Bersama iblis api Calcifer, mereka saling membantu mematahkan kutukan di tengah kekacauan perang."
   },
   {
-    "id": "34",
+    "id": "36",
     "title": "Spirited Away",
     "img": "spiritedaway.jpg",
     "studio": "Ghibli",
@@ -409,7 +433,7 @@
     "note": "Chihiro Ogino, gadis 10 tahun yang tersesat ke dunia roh setelah orang tuanya berubah menjadi babi karena memakan makanan ajaib tanpa izin. Demi menyelamatkan mereka, Chihiro harus bekerja di pemandian roh milik penyihir Yubaba dan menghadapi berbagai rintangan."
   },
   {
-    "id": "35",
+    "id": "37",
     "title": "Princess Mononoke",
     "img": "princess mononoke.jpg",
     "studio": "Ghibli",
@@ -421,7 +445,19 @@
     "note": "Pangeran Ashitaka mencari obat untuk kutukan mematikan dan terjebak dalam perang besar antara roh-roh penjaga hutan dan manusia dari Kota Besi yang merusak alam demi industrialisasi."
   },
   {
-    "id": "36",
+    "id": "38",
+    "title": "Whisper Heart ",
+    "img": "whisper heart.jpg",
+    "studio": "Ghibli",
+    "from": "Ghibli",
+    "year": "1995",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Shizuku, kutu buku berusia 14 tahun yang menemukan nama Seiji Amasawa di setiap kartu perpustakaannya. Pertemuan mereka memicu kisah cinta masa remaja yang saling mendukung dalam mengejar impian."
+  },
+  {
+    "id": "39",
     "title": "Porco Rosso",
     "img": "porcorosso.jpg",
     "studio": "Ghibli",
@@ -433,7 +469,7 @@
     "note": "Kisah seorang mantan pilot tempur Italia Perang Dunia I yang dikutuk menjadi babi antropomorfik. Bekerja sebagai pemburu hadiah, ia melawan bajak laut udara di Laut Adriatik sambil mencari jati diri dan mempertahankan prinsip idealisnya."
   },
   {
-    "id": "37",
+    "id": "40",
     "title": "Kikis Delivery Service",
     "img": "kikisdeliveryservice.jpg",
     "studio": "Ghibli",
@@ -445,7 +481,7 @@
     "note": "Perjalanan pendewasaan seorang penyihir magang berusia 13 tahun bernama Kiki. Ditemani kucing hitamnya, Jiji, ia harus tinggal mandiri di kota pesisir bernama Koriko selama setahun sebagai bagian dari tradisi penyihir."
   },
   {
-    "id": "38",
+    "id": "41",
     "title": "My Neighbor Totoro",
     "img": "totoro.jpg",
     "studio": "Ghibli",
@@ -457,7 +493,7 @@
     "note": "Menceritakan kisah kakak beradik Satsuki dan Mei yang pindah ke rumah tua di pedesaan Jepang bersama ayah mereka. Mereka berteman dengan roh hutan ajaib bernama Totoro yang membawa mereka pada petualangan yang menghangatkan hati, sekaligus membantu mereka menghadapi kenyataan tentang ibu mereka yang sedang sakit. Film ini menampilkan keindahan alam, keajaiban masa kecil, dan ikatan keluarga yang kuat, menjadikannya salah satu karya paling dicintai dari Studio Ghibli."
   },
   {
-    "id": "39",
+    "id": "42",
     "title": "Grave Of The Fireflies",
     "img": "Grave Of The Fireflies.jpg",
     "studio": "Ghibli",
@@ -469,7 +505,7 @@
     "note": "Perjuangan memilukan dua kakak-beradik yatim piatu, Seita (14 tahun) dan Setsuko (4 tahun), dalam bertahan hidup di Jepang menjelang akhir Perang Dunia II. Ditinggal mati sang ibu dan ayah yang gugur di medan perang, mereka harus menghadapi kejamnya kelaparan dan penderitaan di tengah masyarakat yang apatis."
   },
   {
-    "id": "40",
+    "id": "43",
     "title": "Castle in the sky",
     "img": "castle in the sky.jpg",
     "studio": "Ghibli",
@@ -481,7 +517,31 @@
     "note": "Sheeta, seorang gadis yatim piatu yang memegang jimat kristal ajaib. Jimat tersebut adalah kunci untuk menemukan Laputa, sebuah kota legendaris yang melayang di langit. Bersama seorang anak laki-laki bernama Pazu, mereka harus melarikan diri dari kejaran bajak laut dan agen pemerintah yang ingin menguasai harta serta teknologi canggih Laputa."
   },
   {
-    "id": "41",
+    "id": "44",
+    "title": "Nausicaä of the Valley of the Wind ",
+    "img": "Nausicaä of the Valley of the Wind.webp",
+    "studio": "Ghibli",
+    "from": "Ghibli",
+    "year": "1984",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Mengisahkan Putri Nausicaä dalam usahanya menyelamatkan umat manusia dan alam. Ia mencoba menghentikan dua kerajaan yang berperang dan memusnahkan hutan beracun yang dihuni serangga raksasa."
+  },
+  {
+    "id": "45",
+    "title": "The Castle of Cagliostro ",
+    "img": "The Castle of Cagliostro.jpg",
+    "studio": "Ghibli",
+    "from": "Ghibli",
+    "year": "1979",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Pencuri legendaris Lupin merampok kasino dan menyadari uangnya palsu, ia menuju ke negara kecil Cagliostro untuk mengungkap sindikat uang palsu. Di sana, Lupin berusaha menyelamatkan Putri Clarisse yang dipaksa menikah oleh Count Cagliostro."
+  },
+  {
+    "id": "46",
     "title": "Garfield Movie",
     "img": "garfield movie.jpg",
     "studio": "Metro Goldwyn Mayer",
@@ -493,7 +553,7 @@
     "note": "Garfield, kucing oranye pemalas yang sangat mencintai lasagna. Kehidupannya yang mewah dan nyaman bersama majikannya, Jon Arbuckle, dan sahabat anjingnya, Odie, berubah drastis setelah ia bertemu kembali dengan ayah kandungnya yang telah lama hilang, Vic."
   },
   {
-    "id": "42",
+    "id": "47",
     "title": "Look Back",
     "img": "Look Back.jpg",
     "studio": "Durian",
@@ -505,7 +565,7 @@
     "note": "Ceritanya mengikuti Fujino, gadis yang pandai menggambar manga, dan Kyomoto, seorang pertapa (NEET) yang sangat berbakat. Mereka dipersatukan oleh kecintaan pada seni hingga sebuah tragedi tak terduga mengubah jalan hidup mereka."
   },
   {
-    "id": "43",
+    "id": "48",
     "title": "Spy X Code White",
     "img": "spy x code white.jpg",
     "studio": "Toho Animation",
@@ -517,7 +577,7 @@
     "note": "Menceritakan tentang keluarga Forger, mata-mata Loid, pembunuh bayaran Yor, dan gadis cenayang Anya yang melakukan perjalanan liburan musim dingin ke wilayah bersalju Frigis. Liburan ini berujung pada kekacauan besar yang mengancam kedamaian dunia setelah Anya tak sengaja menelan cokelat misterius yang sangat dicari."
   },
   {
-    "id": "44",
+    "id": "49",
     "title": "Ghostbusters Frozen Empire",
     "img": "ghostbusters frozen empire.jpg",
     "studio": "Columbia",
@@ -529,7 +589,7 @@
     "note": "Kisah keluarga Spengler yang kembali ke markas ikonik di New York City untuk melanjutkan bisnis perburuan hantu. Mereka harus bekerja sama dengan para veteran pemburu hantu untuk menghentikan Garraka, dewa iblis kuno yang membangkitkan pasukan mayat hidup dan berniat menciptakan zaman es kedua. "
   },
   {
-    "id": "45",
+    "id": "50",
     "title": "The First Slam Dunk",
     "img": "the first slam dunk.jpg",
     "studio": "Toei Animation",
@@ -541,7 +601,7 @@
     "note": "Ryota Miyagi, sang point guard lincah dari tim SMA Shohoku. Film ini menggabungkan dua alur utama: kilas balik masa lalu Ryota yang penuh tragedi di Okinawa bersama mendiang kakaknya, serta pertandingan sengit Shohoku melawan juara bertahan Sannoh Kogyo di kejuaraan Inter-High."
   },
   {
-    "id": "46",
+    "id": "51",
     "title": "The Wild Robot",
     "img": "the wild robot.jpg",
     "studio": "Dream Works",
@@ -553,7 +613,19 @@
     "note": "Roz, sebuah robot canggih yang terdampar di pulau terpencil tanpa manusia. Untuk bertahan hidup, ia harus belajar beradaptasi dengan satwa liar setempat. Perjalanannya berubah drastis ketika ia menjadi ibu angkat bagi seekor bayi angsa yatim piatu dan berteman dengan rubah yang cerdik."
   },
   {
-    "id": "47",
+    "id": "52",
+    "title": "Infinity Castle",
+    "img": "Infinity Castle.webp",
+    "studio": "Ufotable",
+    "from": "Demon Slayer",
+    "year": "2025",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Serangan akhir Pasukan Pembasmi Iblis yang terjebak di dimensi markas Raja Iblis Muzan Kibutsuji. Di dalam kastil ajaib yang terus berubah bentuk ini, Tanjiro dan para Hashira berpencar untuk melawan anggota terkuat dalam pertempuran hidup dan mati."
+  },
+  {
+    "id": "53",
     "title": "Mugen Train",
     "img": "demon slayer mugen train.jpg",
     "studio": "Ufotable",
@@ -565,7 +637,7 @@
     "note": "Tanjiro Kamado, Zenitsu, dan Inosuke yang bergabung dengan Hashira Api, Kyojuro Rengoku. Mereka menyelidiki Kereta Mugen di mana puluhan pendekar pembasmi iblis dan penumpang menghilang. Di sana, mereka harus melawan iblis mimpi."
   },
   {
-    "id": "48",
+    "id": "54",
     "title": "Beetlejuice Beetlejuice",
     "img": "beetlejuice beetlejuice.jpg",
     "studio": "Warner Bros",
@@ -577,7 +649,7 @@
     "note": "Beetlejuice mengikuti kisah pasangan suami istri yang baru meninggal, Adam dan Barbara Maitland, yang menjadi hantu dan terjebak di rumah mereka sendiri. Masalah dimulai ketika keluarga eksentrik pindah dan merombak rumah tersebut. Frustrasi, mereka menyewa roh usil bernama Beetlejuice untuk menakuti penghuni baru, yang justru memicu kekacauan besar."
   },
   {
-    "id": "49",
+    "id": "55",
     "title": "How to make millions before grandma dies",
     "img": "how to make millions before grandma dies.jpg",
     "studio": "GDH",
@@ -589,7 +661,7 @@
     "note": "Seorang pemuda pengangguran bernama M yang memutuskan untuk merawat neneknya yang menderita kanker stadium 4."
   },
   {
-    "id": "50",
+    "id": "56",
     "title": "Davinci Code",
     "img": "the davinci code.jpg",
     "studio": "Columbia",
@@ -601,7 +673,7 @@
     "note": "Petualangan Robert Langdon dan Sophie Neveu dalam memecahkan teka-teki pembunuhan di Museum Louvre, Paris. Penyelidikan ini membawa mereka mengungkap konspirasi sejarah dan agama yang melibatkan karya-karya Leonardo da Vinci."
   },
   {
-    "id": "51",
+    "id": "57",
     "title": "Kungfu Panda 4",
     "img": "kungfu panda 4.jpg",
     "studio": "Dream Works",
@@ -613,7 +685,7 @@
     "note": "Po ditugaskan menjadi Pemimpin Spiritual Lembah Perdamaian. Ia harus mencari dan melatih Pendekar Naga baru. Untuk mengalahkan penyihir jahat The Chameleon yang bisa berubah wujud, Po bekerja sama dengan Zhen, seekor rubah pencuri dengan masa lalu misterius."
   },
   {
-    "id": "52",
+    "id": "58",
     "title": "Episode nagi",
     "img": "bluelock episode nagi.jpg",
     "studio": "Bandai Namco",
@@ -625,7 +697,7 @@
     "note": "Seishiro Nagi, seorang siswa SMA pemalas yang menghabiskan waktunya bermain gim. Hidupnya berubah drastis setelah teman sekolahnya, Reo Mikage, melihat bakat dan refleks luar biasa Nagi. Demi mewujudkan mimpi memenangkan Piala Dunia, keduanya bergabung dalam fasilitas pelatihan ketat Blue Lock."
   },
   {
-    "id": "53",
+    "id": "59",
     "title": "Ferdinand",
     "img": "ferdinand.jpg",
     "studio": "Blue Sky",
@@ -637,7 +709,7 @@
     "note": "Seekor banteng raksasa berhati lembut di Spanyol yang lebih suka mencium bunga daripada berkelahi. Karena salah paham, ia ditangkap dan dipaksa ikut adu banteng. Ia pun berjuang melarikan diri bersama teman-teman hewannya agar bisa kembali pulang ke keluarga manusianya yang tercinta."
   },
   {
-    "id": "54",
+    "id": "60",
     "title": "Stand By Me",
     "img": "doraemon stand by me.jpg",
     "studio": "Shirogumi",
@@ -649,7 +721,7 @@
     "note": "Robot kucing dari abad ke-22, Doraemon, yang diutus oleh Sewashi (cucu Nobita) untuk mengubah masa depan. Ia ditugaskan membuat Nobita bahagia agar terbebas dari kebangkrutan keluarga dan pernikahan dengan Jaiko, sehingga Doraemon tidak bisa kembali ke masa depan sebelum misi berhasil."
   },
   {
-    "id": "55",
+    "id": "61",
     "title": "Stand By Me 2",
     "img": "stand by me 2.jpg",
     "studio": "Shirogumi",
@@ -661,7 +733,7 @@
     "note": "Nobita yang kembali ke masa lalu untuk melepas rindu dengan mendiang neneknya. Saat sang nenek menyatakan ingin melihat Nobita menikah, Nobita langsung pergi ke masa depan. Namun, di hari pernikahannya dengan Shizuka, Nobita dewasa justru kabur karena merasa ragu dan tidak percaya diri."
   },
   {
-    "id": "56",
+    "id": "62",
     "title": "The Boss Baby",
     "img": "The Boss Baby.jpg",
     "studio": "Dream Works",
@@ -673,7 +745,7 @@
     "note": "Tim, bocah 7 tahun yang cemburu karena kasih sayang orang tuanya terbagi oleh kehadiran adik bayi barunya. Tim segera mengetahui bahwa adiknya bukanlah bayi biasa, melainkan agen rahasia dari Baby Corp yang menyamar untuk menyelamatkan industri cinta kasih dari ancaman perusahaan saingan."
   },
   {
-    "id": "57",
+    "id": "63",
     "title": "Family Business",
     "img": "the boss baby family business.jpg",
     "studio": "Dream Works",
@@ -685,7 +757,7 @@
     "note": "Tim dan Ted Templeton yang telah dewasa kembali disatukan oleh putri Tim, Tina. Tina, yang ternyata merupakan agen rahasia Baby Corp, merekrut mereka untuk menyamar menjadi anak-anak selama 48 jam demi menggagalkan rencana jahat seorang bayi jenius."
   },
   {
-    "id": "58",
+    "id": "64",
     "title": "Dark Side Dimensions",
     "img": "yu gi oh dark side dimensions.jpg",
     "studio": "Toei Animation",
@@ -697,19 +769,7 @@
     "note": "Kisahnya berpusat pada upaya Seto Kaiba yang terobsesi membangkitkan Firaun Atem (Pharaoh) demi memuaskan hasratnya membuktikan diri sebagai duelist terhebat."
   },
   {
-    "id": "59",
-    "title": "Your Name",
-    "img": "your name.jpg",
-    "studio": "Comic Wave",
-    "from": "Makoto Shinkai",
-    "year": "2017",
-    "genre": "Animation",
-    "price": "Rp. 20,000,-",
-    "status": "-",
-    "note": "Mitsuha, gadis desa yang bosan dengan hidupnya, dan Taki, siswa SMA di Tokyo. Secara misterius, mereka berdua sering bertukar tubuh saat bermimpi dan harus menjalani kehidupan satu sama lain."
-  },
-  {
-    "id": "60",
+    "id": "65",
     "title": "Wonka",
     "img": "Wonka.jpg",
     "studio": "Warner Bros",
@@ -721,7 +781,7 @@
     "note": "Menceritakan kisah masa muda Willy Wonka saat berjuang mewujudkan mimpinya menjadi pembuat cokelat terhebat di dunia. Bermodal keterampilan sulap dan resep ajaib, ia harus menghadapi tantangan dari kartel cokelat yang serakah."
   },
   {
-    "id": "61",
+    "id": "66",
     "title": "Migration",
     "img": "migration.jpg",
     "studio": "Universal",
@@ -733,7 +793,7 @@
     "note": "Mengisahkan tentang keluarga bebek Mallard. Sang ayah, Mack, ingin keluarganya tetap aman di kolam New England, sementara sang ibu, Pam, ingin anak-anak mereka, Dax dan Gwen, melihat dunia. Setelah diyakinkan oleh bebek lain yang sedang bermigrasi, mereka memutuskan untuk terbang menuju Jamaika tropis melewati New York City."
   },
   {
-    "id": "62",
+    "id": "67",
     "title": "Leo",
     "img": "Leo.jpg",
     "studio": "Happy Madison",
@@ -745,7 +805,7 @@
     "note": "Leo, seekor kadal tua berusia 74 tahun yang telah hidup puluhan tahun di dalam terarium sebuah ruang kelas sekolah dasar di Florida bersama sahabatnya, seekor kura-kura bernama Squirtle."
   },
   {
-    "id": "63",
+    "id": "68",
     "title": "Transformania",
     "img": "Hotel Transylvania Transformania.png",
     "studio": "Columbia",
@@ -757,7 +817,7 @@
     "note": "Kekacauan bermula ketika sinar tersebut mengubah Johnny menjadi monster, sementara Dracula dan teman-teman monsternya justru berubah menjadi manusia. Kehilangan kekuatan supernya, Dracula dan Johnny harus bekerja sama dan melakukan perjalanan melintasi dunia untuk menemukan penawar sebelum transformasi mereka menjadi permanen. Di tengah perjalanan, mereka terpaksa belajar menerima satu sama lain."
   },
   {
-    "id": "64",
+    "id": "69",
     "title": "The Super Mario Bros Movie",
     "img": "The Super Mario Bros.jpg",
     "studio": "Universal",
@@ -769,7 +829,7 @@
     "note": "Mengisahkan kakak beradik tukang ledeng asal Brooklyn, Mario dan Luigi. Saat memperbaiki pipa bawah tanah, mereka tersedot ke dimensi lain dan terpisah. Mario mendarat di Mushroom Kingdom dan harus bekerja sama dengan Princess Peach dan Toad untuk menyelamatkan Luigi yang ditawan oleh Bowser di Dark Lands. "
   },
   {
-    "id": "65",
+    "id": "70",
     "title": "Suzume",
     "img": "Suzume.jpg",
     "studio": "Comic Wave",
@@ -781,7 +841,7 @@
     "note": "Suatu waktu, Suzume bertemu dengan Souta yang sedang mencari pintu. Suzume mengikuti Souta. Ia menemukan pintu lapuk yang berdiri tegak di tengah reruntuhan pegunungan . Penasaran, Suzume meraih pintu dan tiba-tiba tubuhnya tertarik ke dalam pintu. Pintu misterius ini menjadi awal cerita. Tak berselang lama, pintu-pintu lainnya mulai terbuka bergantian di berbagai penjuru Jepang. Pintu yang terbuka mendatangkan bencana dan menghancurkan Jepang, sehingga pintu harus ditutup. Souta membawa misi menutup pintu yang terbuka, gagal menjalankan tugas karena ia berubah menjadi kursi. Melalui kehadiran Suzume, keduanya berpetualang ke seluruh Jepang untuk menutup pintu yang terbuka demi mencegah bencana terjadi."
   },
   {
-    "id": "66",
+    "id": "71",
     "title": "Weathering with You",
     "img": "Weathering with You.jpg",
     "studio": "Comic Wave",
@@ -793,7 +853,43 @@
     "note": "Hodaka Morishima yang kabur dari pedesaan ke Tokyo dan bertemu Hina Amano, gadis yatim piatu berkemampuan mengendalikan cuaca. Dikenal sebagai \"\"Gadis Sinar Matahari\"\", mereka berdua menggunakan kekuatan Hina untuk menghentikan hujan lebat di Tokyo. Namun, kekuatan ini menuntut tumbal yang berbahaya bagi kelangsungan hidup mereka."
   },
   {
-    "id": "67",
+    "id": "72",
+    "title": "Your Name",
+    "img": "your name.jpg",
+    "studio": "Comic Wave",
+    "from": "Makoto Shinkai",
+    "year": "2017",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Mitsuha, gadis desa yang bosan dengan hidupnya, dan Taki, siswa SMA di Tokyo. Secara misterius, mereka berdua sering bertukar tubuh saat bermimpi dan harus menjalani kehidupan satu sama lain."
+  },
+  {
+    "id": "73",
+    "title": "Garden of Words ",
+    "img": "Garden of Words.jfif",
+    "studio": "Comic Wave",
+    "from": "Makoto Shinkai",
+    "year": "2013",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Takao, siswa berusia 15 tahun yang bercita-cita menjadi pembuat sepatu. Saat musim hujan di Tokyo, ia sering bolos sekolah untuk mendesain di taman Shinjuku Gyo-en. Di sana ia bertemu Yukari, wanita misterius."
+  },
+  {
+    "id": "74",
+    "title": "Centimeters Per Second",
+    "img": "Centimeters Per Second.jpg",
+    "studio": "Comic Wave",
+    "from": "Makoto Shinkai",
+    "year": "2007",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Takaki Tono dan Akari Shinohara bersahabat sejak SD namun harus berpisah karena Akari pindah ke kota lain. Hubungan mereka diuji oleh jarak, waktu, dan kenangan yang tak lekang oleh waktu."
+  },
+  {
+    "id": "75",
     "title": "Pussy Boots",
     "img": "Pussy Boots.jpg",
     "studio": "Dream Works",
@@ -805,7 +901,7 @@
     "note": "Sebelum bertemu Shrek, ia dituduh melakukan perampokan dan menjadi buronan. Untuk membersihkan namanya, ia berpetualang mencari Angsa Bertelur Emas bersama sahabat masa kecilnya, Humpty Dumpty, dan si pencuri ulung, Kitty Softpaws."
   },
   {
-    "id": "68",
+    "id": "76",
     "title": "Mummies",
     "img": "Mummies.jpg",
     "studio": "Warner Bros",
@@ -817,7 +913,7 @@
     "note": "Menceritakan tiga mumi Mesir Kuno yang tinggal di kota rahasia bawah tanah: Putri Nefer, mantan kusir kereta Thut, dan adik laki-lakinya, Sekhem. Karena cincin pernikahan kerajaan dicuri oleh arkeolog Lord Carnaby, mereka terseret ke London masa kini untuk mengambilnya."
   },
   {
-    "id": "69",
+    "id": "77",
     "title": "Gridman Universe",
     "img": "Gridman Universe.jpg",
     "studio": "Toho Animation",
@@ -829,7 +925,7 @@
     "note": "Film ini menyatukan kedua kelompok karakter untuk menghadapi ancaman kosmik baru yang menggabungkan dimensi mereka sekaligus menjadi konklusi kisah cinta Yuta dan Rikka."
   },
   {
-    "id": "70",
+    "id": "78",
     "title": "Megamind vs The Doom Syndicate",
     "img": "megamind vs the doom syndicate.jpg",
     "studio": "Dream Works",
@@ -841,7 +937,7 @@
     "note": "Kembalinya mantan rekan penjahat Megamind yang mengira dia masih menjadi villain. Saat kelompok tersebut kabur dari penjara dan berencana memindahkan Metro City ke bulan, Megamind harus berpura-pura jahat untuk menghentikan mereka dari dalam sebelum akhirnya dibantu oleh Roxanne dan rekannya untuk melawan mereka."
   },
   {
-    "id": "71",
+    "id": "79",
     "title": "Murder Orient Express",
     "img": "murder orient express.jpg",
     "studio": "20th Century",
@@ -853,7 +949,7 @@
     "note": "Kisah detektif Hercule Poirot saat ia menyelidiki pembunuhan misterius terhadap seorang pebisnis kejam di dalam kereta mewah yang terjebak badai salju. Kasus ini melibatkan 13 penumpang yang saling terkait, dengan sebuah rahasia kelam tentang masa lalu korban yang menjadi motif utama kejahatan tersebut."
   },
   {
-    "id": "72",
+    "id": "80",
     "title": "A Haunting in Venice",
     "img": "a haunting in venice.jpg",
     "studio": "20th Century",
@@ -865,7 +961,7 @@
     "note": "Detektif legendaris Hercule Poirot yang telah pensiun dan mengasingkan diri terpaksa kembali beraksi. Ia menyelidiki kasus pembunuhan misterius yang terjadi selama ritual pemanggilan arwah di sebuah palazzo tua yang angker pada malam Halloween."
   },
   {
-    "id": "73",
+    "id": "81",
     "title": "The Crooked Man",
     "img": "hellboy the crooked man.jpg",
     "studio": "VVS Films",
@@ -877,7 +973,7 @@
     "note": "Film ini mengisahkan Hellboy dan agen pemula B.P.R.D., Bobbie Jo Song, yang terjebak di desa terpencil yang dikuasai oleh sekte penyihir. Mereka harus bekerja sama dengan penduduk setempat untuk mengalahkan entitas jahat bernama The Crooked Man."
   },
   {
-    "id": "74",
+    "id": "82",
     "title": "Gundam Seed Freedom",
     "img": "gundam seed freedom.jpg",
     "studio": "Bandai Namco",
@@ -889,7 +985,7 @@
     "note": "Kira Yamato yang memimpin organisasi penjaga perdamaian C.O.M.P.A.S. membasmi sisa-sisa Blue Cosmos. Di tengah konflik yang tak berujung, Kira dihadapkan pada dilema antara takdir genetik dan kebebasan, sementara intrik baru muncul akibat aliansi mencurigakan dengan kerajaan Foundation."
   },
   {
-    "id": "75",
+    "id": "83",
     "title": "Siksa Neraka",
     "img": "siksa neraka.jpeg",
     "studio": "DEE",
@@ -901,7 +997,7 @@
     "note": "Empat bersaudara yang dididik keras oleh ayahnya. Suatu malam, mereka terseret arus sungai dan terbangun di alam lain untuk menerima siksaan atas dosa-dosa yang disembunyikan. Kejadian ini juga mengungkap berbagai rahasia kelam masa lalu keluarga tersebut."
   },
   {
-    "id": "76",
+    "id": "84",
     "title": "Siksa Kubur",
     "img": "siksa kubur.jpg",
     "studio": "Rapi Film",
@@ -913,7 +1009,7 @@
     "note": "Sita yang menjadi tidak percaya agama setelah orang tuanya tewas dalam insiden bom bunuh diri. Untuk membuktikan bahwa siksa kubur tidak ada, ia nekat minta dikubur bersama jenazah seorang pembunuh berdarah dingin. Namun, ia justru harus menghadapi konsekuensi dan kengerian yang tak terbayangkan."
   },
   {
-    "id": "77",
+    "id": "85",
     "title": "Sri Asih",
     "img": "Sri Asih.jpg",
     "studio": "BCU",
@@ -925,7 +1021,7 @@
     "note": "Alana, seorang petarung MMA yang sering dikuasai oleh kemarahan yang tidak bisa ia mengerti. Lahir saat letusan Gunung Merapi, ia tumbuh sebagai titisan Dewi Asih dan harus belajar mengendalikan emosinya untuk menyelamatkan dunia dari ancaman roh jahat pengikut Dewi Api."
   },
   {
-    "id": "78",
+    "id": "86",
     "title": "Gundala",
     "img": "gundala.jpg",
     "studio": "BCU",
@@ -935,6 +1031,151 @@
     "price": "Rp. 20,000,-",
     "status": "recommended",
     "note": "Sancaka, seorang anak yang tumbuh keras di jalanan setelah ditinggal oleh orang tuanya. Sancaka kemudian mendapatkan kekuatan super berupa kemampuan menyerap dan menembakkan petir setelah tersambar kilat, yang membawanya menjadi pahlawan pelindung kaum lemah dari penindasan dan kejahatan para politisi korup."
+  },
+  {
+    "id": "87",
+    "title": "The Illusionist ",
+    "img": "the illusionist.jpg",
+    "studio": "Yari Film Group",
+    "from": "-",
+    "year": "2006",
+    "genre": "Mystery",
+    "price": "Rp. 25,000,-",
+    "status": "-",
+    "note": "Eisenheim, seorang pesulap brilian, yang menggunakan ilusi untuk merebut kembali cinta masa kecilnya, Sophie, yang bertunangan dengan Putra Mahkota Leopold yang kejam."
+  },
+  {
+    "id": "88",
+    "title": "Now You See Me Now You Dont ",
+    "img": "Now You See Me Now You Dont.jpg",
+    "studio": "Lionsgate",
+    "from": "Now You See Me",
+    "year": "2025",
+    "genre": "Mystery",
+    "price": "Rp. 25,000,-",
+    "status": "-",
+    "note": "The Four Horsemen harus membongkar kejahatan korporasi internasional pimpinan Veronika Vanderberg. Untuk menjalankan misi ini, mereka merekrut trio pesulap muda generasi baru dalam operasi perampokan berlian super ketat."
+  },
+  {
+    "id": "89",
+    "title": "The Mandalorian and Grogu ",
+    "img": "The Mandalorian and Grogu.webp",
+    "studio": "Walt Disney",
+    "from": "Star Wars",
+    "year": "2026",
+    "genre": "Fantasy",
+    "price": "Rp. 25,000,-",
+    "status": "newentry",
+    "note": "Kekaisaran telah runtuh, namun sisa-sisa pasukannya masih tersebar. Saat Republik Baru berupaya menjaga ketertiban, mereka merekrut pemburu bayaran legendaris Din Djarin dan muridnya, Grogu, untuk sebuah misi berbahaya."
+  },
+  {
+    "id": "90",
+    "title": "Ora's Dinosaur Diary",
+    "img": "Ora's Dinosaur Diary.webp",
+    "studio": "Shin-Ei Animation",
+    "from": "Crayon Shin chan",
+    "year": "2024",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Menceritakan tentang kekacauan di Tokyo saat taman hiburan dinosaurus dibuka. Anjing Shinchan, Shiro, berteman dengan bayi dinosaurus bernama Nana, tetapi persahabatan mereka berujung pada lepasnya para dinosaurus ke kota."
+  },
+  {
+    "id": "91",
+    "title": "Burst Serving! Kung Fu Boys - Ramen Rebellion ",
+    "img": "Burst Serving! Kung Fu Boys - Ramen Rebellion.jpg",
+    "studio": "Shin-Ei Animation",
+    "from": "Crayon Shin chan",
+    "year": "2018",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Kasukabe dilanda kekacauan saat penduduk menjadi brutal setelah menyantap ramen berbahaya dari Black Panda. Untuk menyelamatkan adiknya, Himawari, dan menghentikan kekacauan tersebut, Shinchan dan teman-temannya harus menguasai jurus kung fu legendaris bernama Puni-Puni."
+  },
+  {
+    "id": "92",
+    "title": "Hoppers ",
+    "img": "Hoppers.jpg",
+    "studio": "Pixar ",
+    "from": "-",
+    "year": "2026",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Mabel, seorang gadis pencinta hewan. Menggunakan teknologi eksperimental, ia memindahkan kesadarannya ke dalam tubuh robot berang-berang untuk berkomunikasi langsung dengan para satwa. Ia melakukan ini untuk mengungkap misteri dunia hewan dan menyelamatkan habitat mereka dari ancaman."
+  },
+  {
+    "id": "93",
+    "title": "Mission Recon",
+    "img": "Kaiju No 8 Mission Recon.jpg",
+    "studio": "Khara",
+    "from": "Kaiju No 8 ",
+    "year": "2025",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Kafka Hibino, seorang pria berusia 30-an yang bekerja sebagai pembersih bangkai monster (kaiju). Hidupnya berubah drastis ketika ia tidak sengaja berubah menjadi kaiju yang sangat kuat."
+  },
+  {
+    "id": "94",
+    "title": "Ne Zha II ",
+    "img": "Ne Zha II.jpg",
+    "studio": "Enlight Pictures, Coloroom Technology, Coco Cartoon",
+    "from": "Ne Zha",
+    "year": "2025",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "-",
+    "note": "Perjuangan Ne Zha dan Ao Bing yang selamat dari sambaran petir surgawi namun terancam lenyap sepenuhnya. Karena raga baru Ao Bing hancur, roh mereka bersatu di dalam tubuh Ne Zha. Mereka harus menempuh perjalanan berbahaya untuk mencari raga fisik baru sekaligus mengungkap konspirasi yang mengancam."
+  },
+  {
+    "id": "95",
+    "title": "Papa Zola The Movie ",
+    "img": "Papa Zola.jfif",
+    "studio": "MONSTA",
+    "from": "-",
+    "year": "2025",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "newentry",
+    "note": "Papa Zola dan Mama Zila, yang ternyata adalah mantan agen rahasia elit dari organisasi P.A.P.A. yang memorinya telah dihapus. Liburan keluarga yang direncanakan berubah menjadi misi penyelamatan mendebarkan ketika putri mereka diculik oleh alien jahat bernama YonB yang mengubah kota menjadi arena pertempuran video game."
+  },
+  {
+    "id": "96",
+    "title": "The Birth Of Kitaro Mystery Of Gegege ",
+    "img": "The Birth Of Kitaro Mystery Of Gegege.jpg",
+    "studio": "Toei Animation",
+    "from": "Kitaro Gegege ",
+    "year": "2023",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "newentry",
+    "note": "Berlatar tahun 1956 di Desa Nagura, film ini mengikuti Mizuki, pegawai bank darah, yang menyelidiki konspirasi politik dan pembunuhan oleh klan Ryuga. Di sana ia bertemu dengan ayah Kitaro yang tengah mencari istrinya, dan keduanya mengungkap skandal supernatural yang mematikan."
+  },
+  {
+    "id": "97",
+    "title": "Zootopia 2",
+    "img": "zootopia 2.jfif",
+    "studio": "Walt Disney Pictures",
+    "from": "Zootopia",
+    "year": "2025",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "newentry",
+    "note": "Judy dan Nick kembali sebagai detektif untuk menyelidiki reptil misterius yang mengacaukan kota. Mereka harus menyamar ke wilayah-wilayah baru yang tak terduga, yang menguji ikatan mereka lebih keras dari sebelumnya. Penyelidikan ini juga membuat mereka berkejaran dengan waktu untuk membersihkan nama mereka setelah dijebak."
+  },
+  {
+    "id": "98",
+    "title": "Zootopia",
+    "img": "zootopia.jpg",
+    "studio": "Walt Disney Pictures",
+    "from": "Zootopia",
+    "year": "2016",
+    "genre": "Animation",
+    "price": "Rp. 20,000,-",
+    "status": "newentry",
+    "note": "Kisah utamanya berfokus pada Judy Hopps, seekor kelinci dari desa yang bercita-cita menjadi polisi pertama di Zootopia. Untuk membuktikan kemampuannya dan memecahkan sebuah kasus misterius yang mengancam kota, ia terpaksa harus bekerja sama dengan Nick Wilde, seekor rubah licik yang gemar menipu."
   }
+  
 ]
 }
