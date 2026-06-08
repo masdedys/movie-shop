@@ -147,7 +147,7 @@ $.getJSON("assets/js/movieList.json", function (data) {
   $.each(DaftarFilm, function (i, data) {
     if (data.status == "recommended") {
       content +=
-        '<div class="card col-md-2 col-sm-3 m-3"><img src="assets/film/' +
+        '<div class="card col-4 col-md-2 col-sm-3 m-3"><img src="assets/film/' +
         data.img +
         '" width="10rem" class="card-img-top" alt="gambar ' +
         data.title +
@@ -162,7 +162,7 @@ $.getJSON("assets/js/movieList.json", function (data) {
   $.each(DaftarFilm, function (i, data) {
     if (data.status == "newentry") {
       contents +=
-        '<div class="card col-md-2 col-sm-3 m-3"><img src="assets/film/' +
+        '<div class="card col-4 col-md-2 col-sm-3 m-3"><img src="assets/film/' +
         data.img +
         '" width="10rem" class="card-img-top" alt="gambar ' +
         data.title +

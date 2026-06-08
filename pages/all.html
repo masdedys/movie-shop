@@ -47,9 +47,9 @@
     <!--/navbar-->
     <div class="container mt-5">
       <!--fantasi-->
-      <section id="fantasy-Movie" class="recommended">
-        <h1 class="title">Fantasy Movie</h1>
-        <div class="row row-cols-3 row-cols-md-5 justify-content-center" id="fantasyMovie"></div>
+      <section id="all-Movie" class="recommended">
+        <h1 class="title">All Movie</h1>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="fantasyMovie"></div>
       </section>
       <!--/fantasi-->
     </div>
@@ -90,8 +90,8 @@
   let contents = "";
 
   $.each(DaftarFilm, function (i, data) {
-    content +=
-        '<div class="card col-md-2 col-sm-3 m-3"><img src="../assets/film/' +
+      content +=
+        '<div class="card col-4 col-md-2 col-sm-3 m-3"><img src="../assets/film/' +
         data.img +
         '" width="10rem" class="card-img-top" alt="gambar ' +
         data.title +

@@ -182,8 +182,8 @@ h3 > .hovera:hover {
 /* Tablet */
 @media (max-width: 767px) {
   img.card-img-top{
-  width: 135px;
-  height: 168px;
+  width: auto;
+  height: auto;
   }
   a.card-title{
     font-size: 14px;
@@ -201,8 +201,8 @@ h3 > .hovera:hover {
     margin-top: 1000px;
   }
   img.card-img-top{
-  width: 87px;
-  height: 140px;
+  width: auto;
+  height: auto;
   }
   a.card-title{
     font-size: 12px;
