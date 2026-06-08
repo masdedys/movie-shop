@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- DataTables -->
     <link rel="stylesheet" href="../assets/DataTables/DataTables-2.3.8/css/dataTables.dataTables.min.css">
-    <link rel="stylesheet" href="../assets/DataTables/DataTables-2.3.8/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="../assets/DataTables/Responsive-3.0.8/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="../assets/DataTables/DataTables-2.3.8/css/dataTables.bootstrap5.min.css">
+
     <link rel="stylesheet" href="../assets/DataTables/Buttons-3.2.6/css/buttons.dataTables.min.css">
     <!--fancybox-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
@@ -58,8 +60,9 @@
       <section class="databasefilm" id="databasefilm">
         <h2 class="mt-4 py-4"></h2>
         <div class="row py-5 justify-content-center text-white searchMovie" style="background-color: var(--color-black);" id="search">
-          <div class="col-md-12">
-            <table id="table-demo" class="table text-white" style="width: 100%">
+          <div class="col-md-8">
+            <div class="table-responsive">
+              <table id="table-demo" class="display nowrap text-white">
               <thead>
                 <tr>
                   <th>Title</th>
@@ -70,6 +73,7 @@
                 </tr>
               </thead>
             </table>
+            </div>
           </div>
         </div>
       </section>
@@ -121,6 +125,7 @@
 
 	<!-- 5. DataTables Extension Plugins -->
 	<script src="../assets/DataTables/Responsive-3.0.8/js/dataTables.responsive.min.js"></script>
+  <script src="../assets/DataTables/Responsive-3.0.8/js/responsive.bootstrap5.min.js"></script>
 	<script src="../assets/DataTables/Buttons-3.2.6/js/dataTables.buttons.min.js"></script>
 	<script src="../assets/DataTables/Buttons-3.2.6/js/buttons.colVis.min.js"></script>
 	<script src="../assets/DataTables/Buttons-3.2.6/js/buttons.html5.min.js"></script>
@@ -141,8 +146,8 @@
             $("#table-demo").DataTable({
               // "ajax":data/object.txt,
               data: data.movieList,
-              "responsive": true,
-              "autoWidth": false,
+              responsive: true,
+              autoWidth: false,
               columns: [
                 { data: "title" }, 
                 { 

@@ -89,6 +89,14 @@ table tr .caption-description {
 table tr .caption-description-o {
   font-weight: bold;
 }
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control {
+    background-color: var(--color-black) !important; /* Ganti dengan warna pilihan Anda */
+    /*border: 2px solid #ffffff !important;"*/  /* Warna border lingkaran */
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:hover {
+    background-color: var(--color-black-hover) !important; /* Ganti dengan warna pilihan Anda */
+    /*border: 2px solid #ffffff !important;"*/  /* Warna border lingkaran */
+}
 div.dt-search input {
     background-color: #f0f4f8 !important;
     color: #333333 !important;
